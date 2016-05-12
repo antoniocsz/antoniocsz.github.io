@@ -1,0 +1,38 @@
+$zero: 0px;
+$nulo: none;
+$full: 100%;
+$cabecalho-fundo: rgba(135,210, 201,1);
+$padding-cabecalho: 20%; 
+$cor-botao-menu: rgba(14,149,134,1);
+$bordas: 1px solid $cor-botao-menu;
+
+
+* {
+	padding: $zero;
+	margin: $zero;
+	list-style: $nulo;
+	text-decoration: $nulo;
+}
+
+#page {
+	text-align: center;
+	width: $full;
+	height: $full;
+}
+
+#cabecalho{
+	background-color: $cabecalho-fundo;
+	padding: $padding-cabecalho;
+	#menu{
+		li{
+			display: inline-block;
+		}
+		a {
+			border: $bordas;
+		}
+	}
+}
+
+section{
+	padding: $padding-cabecalho;
+}

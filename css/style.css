@@ -1,5 +1,23 @@
-body:before {
-  white-space: pre;
-  font-family: monospace; }
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none; }
+
+#page {
+  text-align: center;
+  width: 100%;
+  height: 100%; }
+
+#cabecalho {
+  background-color: #87d2c9;
+  padding: 20%; }
+  #cabecalho #menu li {
+    display: inline-block; }
+  #cabecalho #menu a {
+    border: 1px solid #0e9586; }
+
+section {
+  padding: 20%; }
 
 /*# sourceMappingURL=style.css.map */

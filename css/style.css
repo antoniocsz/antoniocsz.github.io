@@ -1,23 +1,13 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-  text-decoration: none; }
-
 #page {
-  text-align: center;
-  width: 100%;
-  height: 100%; }
+  padding-top: 3%;
+  padding-botton: 5%; }
 
-#cabecalho {
-  background-color: #87d2c9;
-  padding: 20%; }
-  #cabecalho #menu li {
-    display: inline-block; }
-  #cabecalho #menu a {
-    border: 1px solid #0e9586; }
+#section-2, #section-3, #section-4, #section-5 {
+  padding-top: 3%;
+  padding-botton: 5%; }
 
-section {
-  padding: 20%; }
+footer {
+  padding-top: 3%;
+  padding-botton: 5%; }
 
 /*# sourceMappingURL=style.css.map */

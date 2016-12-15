@@ -2,9 +2,7 @@ body {background-color: rgb(177, 237, 195);}
 
 #inicio { margin-top: 50px; }
 
-#foto {
-	display: inline-block;	
-}
+#foto { display: inline-block; }
 
 
 h1 {

@@ -26,7 +26,11 @@
         #inicio { margin-top: 15px; }
 
         #foto { display: inline-block;}
-        
+
+        #experiencias p {
+            margin-left: 3px;
+        }
+
         h1, h2 { margin: 10px auto;}
 
         h1 {
@@ -71,7 +75,7 @@
 <body>
 
     <div id="inicio" class="container">
-       
+
         <div class="col-xs-12 col-md-4 col-md-offset-1">
             <figure id="foto">
                 <img src="tonho.png" alt="Foto">
@@ -99,8 +103,8 @@
                 Python, Flask, Django, HTML5, CSS3, JS, JQuery, Nodejs Reactjs, Gulp, Bower,
                 SQL, MySQL, ASP, Java, Bootstrap, Docker.
             </p>
-            
-        </div> 
+
+        </div>
 
         <div class="col-xs-12 col-md-offset-1">
 
@@ -110,14 +114,24 @@
             </p>
         </div>
 
-        <div class="col-xs-12 col-md-offset-1">
+        <div id="experiencias" class="col-xs-12 col-md-offset-1">
 
             <h2>Experiências</h2>
-            <p>
-                <a target="_blank" href="http://www.gere.ufba.br/">Gere - Sistema de Gerencia de Eventos.</a><br>
-                Desenvolvimento Web.<br>
-                1 ano e 3 meses.
-            </p>
+            <div class="col-md-4 col-xs-12 ">
+                <p>
+                    <a target="_blank" href="http://www.gere.ufba.br/">Gere - Sistema de Gerencia de Eventos.</a><br>
+                    Desenvolvedor Full-Stack<br>
+                    1 ano e 4 meses.
+                </p>
+            </div>
+            <div class="col-md-4 col-xs-12 ">
+                <p>
+                    <a target="_blank" href="http://beta.meensinapp.com/">MeEnsina</a><br>
+                    Desenvolvedor Full-Stack<br>
+                    6 meses
+                </p>
+            </div>
+
         </div>
 
         <div class="col-xs-10 col-md-offset-1">
@@ -146,7 +160,7 @@
 
     <script>
         /* JQuery */
-        
+
         // $(document).ready(function () {
         //     $("h2").hover(function (){
         //          $("#conhecimento").toggle();
